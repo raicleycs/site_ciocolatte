@@ -102,106 +102,11 @@ body {
     background-color: #FFFBEA;
 }
 
-.content2 {
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
-    padding: 20px;
-    background-color: #FFFBEA;
-}
-
-.picole {
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center  ;
-    padding: 1px;
-    background-color: #FFFBEA;
-}
-
-.picole h2{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #EBCB43;
-    font-size: 100px;
-}
-
-.milk {
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center  ;
-    padding: 1px;
-    background-color: #FFFBEA;
-}
-
-.milk h2{
-    margin-top: 30px;
-    margin-bottom: 0px;
-    color: #EBCB43;
-    font-size: 100px;
-}
-
-.pg1 {
-    padding: 10px 7px;
-    margin-left: 20px;
-    text-align: center;
-    background-color: #FFFBEA;
-    border-radius: 250px;
-    border-top-right-radius: 0px;
-    color: #6E411F;
-}
-
-.pg1 h2 {
-    background-color: #FCDF5C;
-    color: #6E411F;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.pg2 {
-    padding: 10px 7px;
-    margin-left: 20px;
-    text-align: center;
-    background-color: #FFFBEA;
-    border-radius: 250px;
-    border-top-right-radius: 0px;
-    color: #6E411F;
-}
-
-.pg2 h2 {
-    background-color: #FCDF5C;
-    color: #6E411F;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.produto1 {
-    width: 20%;
-    max-width: 450px;
-}
-
-.produto1:hover {
-    width: 25%;
-    transition: 1s;
-}
-
-.produto2 {
-    width: 60%;
-    max-width: 450px;
-}
-
-.produto2:hover {
-    width: 70%;
-    transition: 1s;
-}
-
-.produto3 {
-    width: 53%;
-    max-width: 450px;
-}
-
-.produto3:hover {
-    width: 63%;
-    transition: 1s;
+.caixa img{
+    max-width: 100%;
+    width: 300px;
+    border: solid 3px #EBCB43;
+    margin-left: 50px;
 }
 
 .bt1 {
