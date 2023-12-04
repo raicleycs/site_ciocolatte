@@ -191,12 +191,28 @@ span {
 }
 
 .bt1 {
+    margin-left: -70px;
+    font-family: Codec Warm Trial;
+    font-size: 20px;
+    background-color:#EBCB43;
+    color: #6E411F;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.pg1 h3{
+    font-family: Codec Pro;
+    font-size: 20px;
+}
+
+.pg1 .bt2 {
     font-family: Codec Warm Trial;
     background-color:#EBCB43;
     color: #6E411F;
     padding: 10px 30px;
     border-radius: 20px;
 }
+
 
 .bt2 {
     background-color: #FFFBEA;
