@@ -19,49 +19,6 @@ body {
 }
 
 
-.sobre {
-    margin-top: 50px;
-    background-color: #ECCC47;
-    padding: 20px 150px;
-    margin-bottom: 0%;
-}
-
-.sobre h1 {
-    color:#FFFBEA;
-    font-size: 60px;
-    text-align: center;
-}
-
-.sobre span {
-    color: #6E411F;
-    font-size: 60px;
-    text-align: center;
-}
-
-.sobre h2 {
-    font-size: 25px;
-    color: #6E411F;
-    text-align: center;
-}
-
-.container-carrossel {
-    max-width: 1200px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.slide-carrossel {
-    display: flex;
-    transition: transform 2s ease-in-out;
-}
-
-.imagem-carrossel {
-    width: 1200px;
-    height: 500px;
-}
 .logo-navbar{
     width: 100%;
     max-width: 130px;
@@ -121,74 +78,37 @@ body {
     border-bottom-right-radius: 0;
 }   
 
-.banner {
+.conteudo {
+    text-align: center;    
+    background-color: #FFFBEA;
     margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100%;
-    width: 1475px ;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: solid 5px #FCDF5C;
     border-radius: 50px;
 }
-.content {
+
+.caixas1 {
     display: flex;
-    padding: 20px;
-    background-color: #FFFBEA;
 }
 
-.pg1 {
-    padding: 10px 7px;
-    margin-left: 20px;
-    text-align: center;
-    background-color: #FFFBEA;
-    border-radius: 250px;
-    border-top-right-radius: 0px;
+.caixas1 h2{
     color: #6E411F;
 }
 
-.pg1 h2 {
+.caixas1 input{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border: solid 2px #C1A01D;
+    border-radius: 20px;
     background-color: #FCDF5C;
     color: #6E411F;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.produto1 {
-    width: 100%;
-    max-width: 450px;
-}
-
-.bt1 {
-    margin-left: -70px;
     font-family: Codec Warm Trial;
-    font-size: 20px;
-    background-color:#EBCB43;
-    color: #6E411F;
-    padding: 10px 30px;
-    border-radius: 20px;
 }
 
-.pg1 h3{
-    font-family: Codec Pro;
-    font-size: 20px;
-}
-
-.pg1 .bt2 {
-    font-family: Codec Warm Trial;
-    background-color:#EBCB43;
-    color: #6E411F;
-    padding: 10px 30px;
-    border-radius: 20px;
-}
-
-
-.bt2 {
-    background-color: #FFFBEA;
-    text-align: center;
-    padding: 20px;
-}
-
-.bt2 .bt1 {
-    font-size: larger;
+.conteudo h1{
+    color: #C1A01D;
 }
 
 .footer{ 

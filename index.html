@@ -20,40 +20,34 @@
         <img class="carrinho" src="img\carrinho.png">
         </div>
 
-    <main>
-    <div class="swiper">
-      
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="img\Banner trufas.png" alt="Foto 01">
-            </div>
+        <div class="container-carrossel">
+          <div class="slide-carrossel">
+              <img class="imagem-carrossel" src="img\Banner trufas.png" alt="Imagem 1">
+              <img class="imagem-carrossel" src="img\Banner Verão.png" alt="Imagem 2">
+              <img class="imagem-carrossel" src="img\Banner combo.png" alt="Imagem 3">  
           </div>
-
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="img\Banner Verão.png" alt="Foto 02">
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="img\Banner site.png" alt="Foto 03">
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="img\Banner combo.png" alt="Foto 03">
-            </div>
-          </div>
-        </div>
-      
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </main>
+      </div>
+  
+      <script>
+          const carousel = document.querySelector('.slide-carrossel');
+          const images = document.querySelectorAll('.imagem-carrossel');
+          const interval = 5000; // 3 segundos
+  
+          let currentIndex = 0;
+  
+          function nextSlide() {
+              currentIndex = (currentIndex + 1) % images.length;
+              updateCarousel();
+          }
+  
+          function updateCarousel() {
+              const offset = -currentIndex * 1200; // Largura fixa por imagem
+              carousel.style.transform = `translateX(${offset}px)`;
+          }
+  
+          setInterval(nextSlide, interval);
+      </script>
+  
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="java\java.js"></script>
