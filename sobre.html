@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sobre</title>
+    <link rel="icon" href="img\logo sem borda.png"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="csssobre/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo-navbar" src="img\logo sem borda.png" alt="logo">
+        <a href="#">Home</a>
+        <a href="trufas.html">Trufas</a>
+        <a href="Verão.html">Verão</a>
+        <a href="combo.html">Combos</a>
+        <a href="#">Sobre</a>
+        <input class="bt-navbar" type="text" placeholder="Pesquise aqui...">
+        <button class="bt-navbar1" type="submit">Pesquisar</button>
+        <img class="carrinho" src="img\carrinho.png">
+        </div>
+
+    <div class="conteudo">
+        <img src="img/Conheça.png">
+        <img class="fachada" src="img/Fachada.png">
+    </div>
+
+  <div class="sobre">
+    <h1>A <span>CiocoLatte</span> é uma empresa de trufas, conhecida pela busca da diversidade de sabores e 
+      por focar no melhor para cada cliente.</h1>
+    <br>
+    <h2>O nome designado tem como referência a descendência italiana do dono, trocando a pronúncia correta 
+    “cioccolato” para “cicolatte”, sendo identificada dessa forma nas embalagens e no mercado de trabalho.</h2>
+  </div>
+
+  <div class="container-carrossel">
+    <div class="slide-carrossel">
+        <img class="imagem-carrossel" src="img/depocaio.png" alt="Imagem 1">
+        <img class="imagem-carrossel" src="img\Banner Verão.png" alt="Imagem 2">
+        <img class="imagem-carrossel" src="img\Banner combo.png" alt="Imagem 3">  
+    </div>
+</div>
+
+<script>
+    const carousel = document.querySelector('.slide-carrossel');
+    const images = document.querySelectorAll('.imagem-carrossel');
+    const interval = 5000; // 3 segundos
+
+    let currentIndex = 0;
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateCarousel();
+    }
+
+    function updateCarousel() {
+        const offset = -currentIndex * 1200; // Largura fixa por imagem
+        carousel.style.transform = `translateX(${offset}px)`;
+    }
+
+    setInterval(nextSlide, interval);
+</script>
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="java\java.js"></script>
+
+    <div class="bt2">
+      <a href="trufas.html">
+        <button class="bt1" type="button">Veja mais aqui!</button></a>
+    </div>
+    <div class="footer">
+        <div class="ft">
+            <img class="logo-footer" src="img\logo sem borda.png" alt="logomarca">
+        </div>
+        <div class="ft">
+            <h2 href="#">Politica de Privacidade</h2>
+            <h2 href="#">Politica de Reembolso</h2>
+            <h2 href="#">Termos e Condições</h2>
+        </div>
+        <div class="ft">
+            <h2 href="#">Perguntas Frequentes</h2>
+            <h2 href="#">Fale Conosco</h2>
+            <h2 href="#">Trabalhe Conosco</h2>
+        </div>
+
+    </div> 
+</body>
+</html>
